@@ -5,6 +5,12 @@
 .verticalSpace{
 	margin-bottom: 40px;
 }
+.clear{
+	clear: both;
+}
+.maincolor{
+	background: #EEEEEE;
+}
 /*main styles */
 #main{
 	background: url("../img/main-bg.jpg");
@@ -38,7 +44,7 @@
 	font-weight: 700;
 
 }
-#main .btn{
+#main .btn,.contactbtn button{
 	background: #FED136;
 	padding: 20px;
 	border-radius: 0;
@@ -104,8 +110,14 @@
 
 /*about styles*/
 #about{
-	height: 350px;
-
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+#about .aboutheader h4{
+	padding-bottom: 30px;
+}
+#about .aboutheader h4{
+	font-style: italic;
 }
 #about .mainColor{
 	background-color: #FFFFFF;
@@ -113,25 +125,142 @@
 #about .mainHeight{
 	height: 100%;
 }
-/*team styles*/
-#team{
-	height: 400px;
+#about .aboutheader{
+	text-align: center;
+}
+#about .aboutimg1{
+	max-width: 170px;
+}
+#about .aboutimg1 img{
+	width: 100%;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#about .abouttext{
+	padding-left: 100px;
+	text-align: right;
+}
+#about .abouttext2{
+	padding-right: 100px;
+}
+.line1,.line2,.line3,.line4{
+	height:100px;
+	border-right: 1px solid grey;
+}
+.line1,.line3{
+	margin-top: -32px;
+}
+.line2,.line4{
+	margin-top: -30px;
+}
+.timeline{
+	margin-top: 20px;
+}
+.timeline2,.timeline3,.timeline4{
+	margin-top: -40px;
+}
+.circle h4{
+
+	color:white;
+}
+.circle{
+	background: #FED136;
+	border-radius: 100%;
+	width:150px;
+	height:150px;
+	text-align: center;
+	padding-top: 25px;
+	margin-left: 35px;
+    margin-top: 40px;
 
 }
-#team .mainColor{
-	background-color: #EEEEEE;
+/*team styles*/
+#team{
+    margin-top: 150px;
+}
+#team {
+	background: #EEEEEE;
 }
 #team .mainHeight{
 	height: 100%;
 }
+.weteamhead{
+	text-align: center;
+	padding-bottom: 50px;
+}
+#team img{
+	border-radius: 50%;
+}
+#team i{
+	width:40px;
+	height: 40px;
+	border-radius:50%;
+	color:white;
+	background: black;
+	padding:10px;	
+}
+.lorem{
+	margin-top: 50px;
+	margin-bottom: 200px;
+	padding:0 20%;
+	font-style: italic;
+}
+#team .teamrow{
+	margin:0;
+	padding: 150px 0;
+}
+/*reklam*/
+#reklam{
+	margin:50px 0px;
+}
+#reklam .rowreklam{
+	margin:0;
+}
 /*contact styles*/
 #contact{
-	height: 500px;
-
-}
-#contact .mainColor{
-	background-color: #2B2B2B;
+	background:url("../img/map.png");
+	background-size: cover;
+	background-position: center;
 }
 #contact .mainHeight{
 	height: 100%;
+}
+#contact .rowcontact{
+	margin:0;
+	padding:150px 0;
+
+}
+#contact .conacthead{
+	padding-bottom: 50px;
+	color:white;
+}
+#contact .textaria{
+	height: 240px;
+}
+.inputcontact input{
+	height: 60px;
+	width:90%;
+	margin-bottom: 17px;
+	border-radius: 5px;
+}
+/*footer*/
+#footer{
+	padding:50px 0;
+}
+#footer i{
+	width:40px;
+	height: 40px;
+	border-radius:50%;
+	color:white;
+	background: #fed136;
+	padding:10px;
+}
+#footer .footlist ul{
+	list-style: none;
+}
+#footer .footlist ul li{
+	float: left;
+	padding-right: 10px;
+	color: #fed136;
 }
